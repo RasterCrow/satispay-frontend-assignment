@@ -1,0 +1,47 @@
+query getPokemonsByType {
+  pokemonsByType(type: "Flying", limit: 5, after: "006") {
+    edges {
+      node {
+        id
+        name
+        types
+      }
+    }
+  }
+}
+
+query getPokemons {
+  pokemons {
+    edges {
+      node {
+        id
+        name
+        types
+      }
+    }
+  }
+}
+
+query getPokemonsLimit {
+  pokemons(limit: 3) {
+    edges {
+      node {
+        id
+        name
+        types
+      }
+    }
+  }
+}
+
+query getPokemonsAfter {
+  pokemons(after: "003") {
+    edges {
+      node {
+        id
+        name
+        types
+      }
+    }
+  }
+}

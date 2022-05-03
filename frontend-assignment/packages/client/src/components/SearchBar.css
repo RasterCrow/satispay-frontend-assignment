@@ -1,0 +1,42 @@
+
+.searchbar-form-row{
+        height:150px; margin: 10px;
+}
+
+.searchbar-row{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-bottom: 10px;
+}
+
+.form {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+}
+
+.ant-form-item-label label{ 
+        font-size:20px;
+     }
+
+
+@media screen and (max-width: 426px) {
+        .searchbar-form-row{
+                height:250px; margin: 10px;
+        }
+
+    .searchbar-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 80%;
+        margin-bottom: 10px;
+}
+.ant-form-item-label label{ 
+        font-size:17px;
+     }
+  
+  }

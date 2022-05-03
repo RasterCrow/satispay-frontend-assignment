@@ -1,0 +1,44 @@
+@import '~antd/dist/antd.css';
+
+.ant-layout-header{
+  min-height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-layout-content{
+  margin:auto;
+  width: 50%;
+  min-height: 93vh;
+  display:flex;
+  flex-direction: column;
+}
+
+
+.title {
+  text-align: "center";
+  color: white;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 426px) {
+  .title {
+    text-align: "center";
+    color: white;
+    font-size: 22px;
+    margin-bottom: 0px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .site-layout-content{
+    margin:auto;
+    width: 100%;
+    min-height: 93vh;
+    display:flex;
+    flex-direction: column;
+  }
+}
